@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="timer">
+            <span id="days">00</span> :
+            <span id="hours">00</span> :
+            <span id="minutes">00</span> :
+            <span id="seconds">00</span>
+        </div>
+        <div class="input-container">
+            <div>
+                <label for="daysInput">Days:</label>
+                <input type="number" id="daysInput" min="0" value="0">
+            </div>
+            <div>
+                <label for="hoursInput">Hours:</label>
+                <input type="number" id="hoursInput" min="0" max="23" value="0">
+            </div>
+            <div>
+                <label for="minutesInput">Minutes:</label>
+                <input type="number" id="minutesInput" min="0" max="59" value="0">
+            </div>
+            <button id="startButton">Start Countdown</button>
+        </div>
+        <audio id="endSound" src="./assets/Alarm-Clock-Short-chosic.com_.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

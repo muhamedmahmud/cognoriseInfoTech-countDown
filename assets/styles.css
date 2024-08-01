@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0ff;
+}
+
+.timer {
+    font-size: 3rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.timer span {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ff, 0 0 10px #0ff;
+}
+
+.input-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.input-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #0ff;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px #0ff;
+}
+
+button:hover {
+    background-color: #0cc;
+    box-shadow: 0 0 30px #0cc;
+}
+.swal2-neon {
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    border: none;
+    border-radius: 15px;
+}
+
+.swal2-title-neon {
+    text-shadow: 0 0 10px #0ff;
+    color: #0ff;
+}
+
+.swal2-button-neon {
+    background-color: #0ff !important;
+    color: #1e1e1e !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #0ff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.swal2-button-neon:hover {
+    background-color: #0cc !important;
+    box-shadow: 0 0 30px #0cc;
+}
